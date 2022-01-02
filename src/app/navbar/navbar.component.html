@@ -1,0 +1,11 @@
+<mat-toolbar color="warn" class="toolbar">
+  <span (click)="singleSpaNavigateUrl('')">My Application</span>
+  <mat-button-toggle-group class="menu">
+    <mat-button-toggle (click)="singleSpaNavigateUrl('first-angular-app')">Angular App</mat-button-toggle>
+    <mat-button-toggle (click)="singleSpaNavigateUrl('first-react-app')" value="react">React App</mat-button-toggle>
+  </mat-button-toggle-group>
+  <span class="example-spacer"></span>
+  <mat-button-toggle-group class="menu">
+    <mat-button-toggle value="bold" routerLink="/login">Logout</mat-button-toggle>
+  </mat-button-toggle-group>
+</mat-toolbar>

@@ -1,0 +1,30 @@
+.toolbar {
+  padding: 45px;
+}
+.my-app {
+  background: #1100ff;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.menu {
+  margin-left: 100px;
+}
+
+.mat-button-toggle {
+  padding: 20px;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.mat-button-toggle:hover {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.mat-button-toggle-checked {
+  background-color: #b0001f;
+  color: #67ec79 !important;
+}
