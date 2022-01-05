@@ -27,9 +27,7 @@ export class NavbarComponent implements OnInit {
 
 
   public singleSpaNavigateUrl(url: string) {
-    console.log('ngOnInit appNames', getAppNames());
-    console.log('ngOnInit mountedAppNames', getMountedApps());
-    navigateToUrl('/'+ url);
+    navigateToUrl('/' + url);
   }
 
 }
